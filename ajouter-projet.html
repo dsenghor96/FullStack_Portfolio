@@ -7,5 +7,17 @@
 </head>
 <body>
     <h1>ajouter un nouveau projet</h1>
+    <form action="./lister-projets.html" method="post">
+        <label for="libelle">Libellé :</label>
+        <input type="text" name="libelle" id="libelle" required>
+        <label for="description">Déscription :</label>
+        <textarea name="description" id="description" required></textarea>
+        <label for="image">choisir une image :</label>
+        <input type="file" name="image" id="image" required>
+        <label for="tech">choisir la technologie utilisée :</label>
+        <textarea name="tech" placeholder="html,css,js,react..." id="tech" required></textarea>
+        <button type="submit">ajouter le projet</button>
+    </form>
+    <a href="./lister-projets.html">Mes projets</a>
 </body>
 </html>
