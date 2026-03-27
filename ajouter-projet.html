@@ -1,23 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>formulaire d'ajout de projet</title>
-</head>
-<body>
-    <h1>ajouter un nouveau projet</h1>
-    <form action="./lister-projets.html" method="post">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Accueil</a>
+        <a href="./lister-projets.html">Mes projets</a>
+      </nav>
+    </header>
+    <main>
+      <h1>ajouter un nouveau projet</h1>
+      <form action="./lister-projets.html" method="post">
         <label for="libelle">Libellé :</label>
-        <input type="text" name="libelle" id="libelle" required>
+        <input type="text" name="libelle" id="libelle" required />
         <label for="description">Déscription :</label>
         <textarea name="description" id="description" required></textarea>
         <label for="image">choisir une image :</label>
-        <input type="file" name="image" id="image" required>
+        <input type="file" name="image" id="image" required />
         <label for="tech">choisir la technologie utilisée :</label>
-        <textarea name="tech" placeholder="html,css,js,react..." id="tech" required></textarea>
+        <textarea
+          name="tech"
+          placeholder="html,css,js,react..."
+          id="tech"
+          required
+        ></textarea>
         <button type="submit">ajouter le projet</button>
-    </form>
-    <a href="./lister-projets.html">Mes projets</a>
-</body>
+      </form>
+      <a href="./lister-projets.html">Mes projets</a>
+    </main>
+    <footer>
+      <p>© 2026 Dieynaba Senghor</p>
+    </footer>
+  </body>
 </html>
