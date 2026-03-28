@@ -109,6 +109,39 @@ width: 480px;
 .projet button:hover {
     transform: scale(1.10);
 }
+/*css detailler projet*/
+.detail-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;        
+    padding: 30px;    
+    align-items: flex-start;
+
+}
+.projet-image {
+    width: 300px;
+}
+.projet-info {
+    color: #800020;
+    padding: 10px;
+    font-size: 20px;
+}
+.projet-description {
+    color: #800020;
+    font-size: 20px;
+}
+.retour {
+    border: #800020 2px solid;
+    background-color: #D4AF37;
+    border-radius: 5px;
+   padding: 12px 20px;
+    transition: transform 0.3s ease;
+    color: #fffff0;
+    font-size: 20px;
+    display: inline-block;  /* nécessaire pour que padding fonctionne sur un <a> */
+    text-decoration: none;
+    margin-top: 20px;
+}
 /*css pieds de pages*/
 footer {
   background-color: #fffff0;
