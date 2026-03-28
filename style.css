@@ -73,6 +73,42 @@ nav {
 .carte:hover {
 transform: scale(1.05);
 }
+/*css de la liste des projets*/
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.projet {
+border: 2px solid #800020;
+padding: 10px;
+border-radius: 5px;
+width: 500px;
+}
+.projet a {
+    color: #800020;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.projet img{
+width: 480px;
+    height: 250px;
+    object-fit: cover;
+}
+.projet button{
+    border: #800020 2px solid;
+    background-color: #D4AF37;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    transition: transform 0.3s ease;
+    color: #fffff0;
+    font-size: 20px;
+}
+.projet button:hover {
+    transform: scale(1.10);
+}
 /*css pieds de pages*/
 footer {
   background-color: #fffff0;
