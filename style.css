@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*css main*/
+main {
+  padding: 30px;
+}
+main h1, main h2 {
+    margin-bottom: 10px;
+    color: #800020;
+}
+.info {
+    font-size: 20px;
+}
+main ul {
+    padding-left: 20px;
+    margin: 10px 0;
+    list-style-type: none;
+}
+main a {
+    color: #800020;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+/*css header*/
+header {
+  background-color: #fffff0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 70px;
+  background-color: #fffff0;
+  transition: transform 0.3s ease;
+}
+.logo img:hover {
+  transform: scale(1.05);
+}
+.nav-links a {
+  color: #800020;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links a:hover {
+    color: #D4AF37;
+}
+/*css cartes*/
+.competences {
+    padding: 5px;
+}
+.cartes {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+.carte{
+    background-color: #fffff0;
+    color: #D4AF37;
+    border: 2px solid #800020;
+    padding: 10px;
+    border-radius: 15px;
+    width: 290px;
+    transition: transform 0.3s ease;
+}
+.carte:hover {
+transform: scale(1.05);
+}
+/*css pieds de pages*/
+footer {
+  background-color: #fffff0;
+  color: #800020;
+  padding: 20px;
+  text-align: center;
+}

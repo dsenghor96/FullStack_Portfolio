@@ -4,39 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-    <nav>
-        <div>
-            <img src="./logo_portfolio.png" alt="logo de mon portfolio" />
+      <nav>
+        <div class="logo">
+          <img src="./logo_portfolioo.png" alt="Logo DS" />
         </div>
-        <ul>
-            <li><a href="./index.html">Accueil</a></li>
-            <li><a href="./lister-projets.html">Mes projets</a></li>
-        </ul>
-    </nav>
-</header>
+        <div class="nav-links">
+          <a href="./index.html">🏠Accueil</a>
+          <a href="./lister-projets.html">📚Mes projets</a>
+        </div>
+      </nav>
+    </header>
     <main>
-      <h1>Dieynaba Senghor</h1>
-      <p>
-        Je m’appelle Dieyna, diplômée d’une licence professionnelle en réseaux
-        informatiques, et actuellement en formation AWS re/Start au Orange
-        Digital Center de Dakar. Je me spécialise dans le Cloud Computing et le
-        DevOps, avec des compétences en administration réseau, développement
-        front-end et gestion des services AWS. Passionnée par les nouvelles
-        technologies et l’optimisation des infrastructures, je cherche à
-        contribuer à des projets cloud innovants tout en renforçant mes
-        compétences DevOps et Cloud.
-      </p>
-      <h2>Competences</h2>
-      <ul>
-        <li>Administration réseau</li>
-        <li>Administration système</li>
-        <li>Cloud Computing (AWS, OpenStack)</li>
-        <li>Devops</li>
-        <li>Developpement Web (Fullstack)</li>
-      </ul>
+      <section class="presentation">
+        <div class="titre">
+          <h1>Dieynaba Senghor</h1>
+        </div>
+        <div class="info">
+          <p>
+            Je m’appelle Dieyna, diplômée d’une licence professionnelle en
+            réseaux informatiques, et actuellement en formation AWS re/Start au
+            Orange Digital Center de Dakar. Je me spécialise dans le Cloud
+            Computing et le DevOps, avec des compétences en administration
+            réseau, développement front-end et gestion des services AWS.
+            Passionnée par les nouvelles technologies et l’optimisation des
+            infrastructures, je cherche à contribuer à des projets cloud
+            innovants tout en renforçant mes compétences DevOps et Cloud.
+          </p>
+        </div>
+      </section>
+      <section class="competences">
+        <h2>Compétences</h2>
+        <div class="cartes">
+          <div class="carte">
+            <h3>🌐 Réseaux & Systèmes</h3>
+            <ul>
+              <li>Administration réseau</li>
+              <li>Configuration WAN</li>
+              <li>Administration système</li>
+              <li>Serveur Windows</li>
+              <li>Serveur Linux</li>
+            </ul>
+          </div>
+          <div class="carte">
+            <h3>☁️ Cloud & DevOps</h3>
+            <ul>
+              <li>Gestion des identités et des accès (IAM)</li>
+              <li>Sécurisation des réseaux (VPC)</li>
+              <li>Monitoring & détection des menaces</li>
+              <li>Protection des données (chiffrement)</li>
+              <li>Gestion des vulnérabilités et conformité</li>
+            </ul>
+          </div>
+          <div class="carte">
+            <h3>💻 Développement Web</h3>
+            <ul>
+              <li>Html</li>
+              <li>Css</li>
+              <li>Tailwind</li>
+              <li>Javascript</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="carte">
+            <h3>🔒 Securite</h3>
+            <ul>
+              <li>Gestion des accès et authentification</li>
+              <li>Sécurité réseau</li>
+              <li>Analyse des vulnérabilités</li>
+              <li>Monitoring et gestion des logs</li>
+              <li>Sécurité des systèmes (Linux / Windows)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <a href="lister-projets.html">Voir mes projets</a>
     </main>
     <footer>
